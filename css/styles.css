@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+
+p {
+    font-size:  1rem;;
+}
+
+/* CLASS STYLING */
+
+.cotainers {
+    display: flex;
+    flex-wrap: wrap;
+    
+    max-width: 100%;
+    margin: 8% 4%;
+}
+
+/* CARDS SECTIONS */
+.card {
+    margin:3% ;
+    border-radius: 20px;
+    width: 360px;
+    height: fit-content;
+}
+
+.Card-text {
+    margin: 25px 1.2rem 5 0;
+}
+
+/* AVATAR IMAGE */
+
+.avatar-image {
+    height: 3.7rem;
+    margin: 25px 0 5 25px;
+    width: 3.7rem;
+    border-radius: 50px;
+}
+
+/* FONT AWESOME */
+
+.fa-ellipsis-vertical {
+    margin: 2.3rem 0 0 5.5rem;
+}
+
+/* COLORED TEXT SECTION */
+
+.colored-subtext {
+    color: #78858F;
+    font-size: 0.7rem;
+}
+
+
+/* First Card section */
+
+.main-img {
+    width:100%;
+    height: 11.5rem;
+    margin-bottom: 4%;
+}
+
+/* SECOND CARD */
+.card-2-text {
+    margin: 5% auto;
+}
+
+/* CARD 3 */
+
+.card3-img {
+    border-radius: 20px 20px 0 0;
+    width: fit-content;
+}
+
+/* CARD 5 */
+
+.btn-card5 {
+    border: #000 solid 2px;
+    border-radius:4px;
+    color: #000;
+    margin: 25px 1.2rem 5 0;
+}
+
+.card7-btn {
+    margin: 25px 0 2rem 1.2rem; 
+}
+
+.card7-socials-number {
+    margin:0 auto 0 1.2rem  ;
+}
+
+
+.card-8-text {
+    margin: 25px 0 0 1.2rem;  
+}
+
+/* CARD 9 */
+.card-9 {
+     background: #8DD4EB;
+     
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+    z-index:3;
+}
+
+.card9-position {
+    position: absolute;
+    left: 50px;
+    top: 28px;
+    z-index: 2;   
+}
+
+.card-9-image2 {
+    position: relative;
+    right:15px;
+    z-index:-1;
+}
+
+.card-9-image {
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+}
+
+.card9-placement {
+    margin-left: 8rem;
+}
+
+
+.progress {
+    background-color: #78858F;
+    margin-bottom:  30px; 
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.pro {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+/* CARD 10 */
+.nike-avatar {
+    width: 80%;
+    height: 80%;
+    margin: auto  10px 0 30px;
+}
+
+.nike-text {
+    margin: 25px 0 0 2.2rem;
+}
+
+.nike-photo {
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    height: 220px;
+    width: 220px;
+    border-radius:100%;
+    margin:2% auto;
+}
+
+.nike-img {
+    height: 200px;
+    width:  260px;
+    margin:  1% 2rem 1% 0;
+    transform: rotate(45%);
+}
+
+.love-bg {
+   margin-top: 8px; 
+}
+
+.heart {
+    background-color: #000;
+    border-radius: 20px;
+    height: 54px;
+    width: 54px;
+    color: #fff;
+    padding: 9%;  
+}
+
+.nike-text-footer {
+    margin: 25px 5rem 1rem 2.2rem;
+}
+
+/* CARD 11 */
+
+
+
+.card-11-icon {
+    margin: 25px 0 25px 1.2rem;
+}
+
+.card-11-icon-1 {
+    margin: 25px 1.2rem 25px 1.5rem;
+}
+
+.wine-img {
+    width: 79px;
+    height: 270px;
+    position: absolute;
+    top: 50px;
+    left: 130px;   
+}
+
+.wine-bg {
+    background: linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51));
+    height: 230px;
+    width: 230px;
+    border-radius: 200px;
+    margin: 8% auto;
+}
+
+.wine-text {
+    margin: 25px 1rem 25px 1.5rem;
+}
+
+/* CARD 12 SECTIONS */
+span {
+    font-size:1rem;
+}
+
+.btn-card-12 {
+    background-color: #08A02A;
+    text-align: center;
+    margin: 1% 14%;
+
+}
+
+.card-12-header {
+   color: #08A02A;
+}
+
+.GOOD-CHECK{
+    color: #08A02A;
+    margin-right:8px;
+}
+
+
+/* CARD 13 SECTION STYLING */
+
+.card-13-img {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(1, 7, 9, 0.85) 85%);
+
+    height: fit-content;
+    width: 100%;
+    border-radius: 20px;
+    filter:brightness(40%)
+}
+
+.card-13-text {
+    position: absolute;
+    color: #fff;
+    margin: 0;
+    bottom: 2rem;
+}
+
+/* CARD 14 SECTION STYLING */
+
+.card-14-bg {
+    background: #070E13;
+    color:#fff;
+}
+
+.card-14-headertext {
+    margin: 10px auto 5px 25px;
+}
+
+.card-bodytext {
+    margin-left: 25px;
+}
+
+.card-14-subtext {
+    margin:20px 100px 40px 25px;
+}
+
+.on-off {
+    margin:20px auto 40px 25px;
+}
+
+/* CARD 15 SECTION */
+
+.card-15-bg {
+    background: #18051B;
+    color: #fff;
+}
+
+.card-img-15 {
+    height: 250px;
+    width: 90%;
+    border-radius: 20px;
+    margin: 4% auto;
+}
+
+.card15-text {
+    margin: 0 auto 8%  20px ;
+}
+
+.plus {
+    margin:auto 160px 0 0;
+}
+
